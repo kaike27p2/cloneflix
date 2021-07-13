@@ -1,0 +1,99 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin: 0 0 0 5px;
+}
+
+header nav a{
+    color: rgb(204, 200, 200);
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+header nav a:hover{
+    color: #fff;
+    
+}
+/*filme principal*/
+.container{
+    margin-left: 25px;
+}
+.filme-principal{
+     font-size: 15px;
+     background:linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45) 100%), url(../img/fundoGoT.jpg);
+     height: 530px;
+     background-size: cover;
+
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+}
+
+.filme-principal .titulo{
+    margin: 0 0 10px 20px;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.filme-principal .descricao{
+    margin: 0 0 0 20px;
+     width: 410px;
+    font-size: 18px;
+
+}
+.filme-principal .botoes{
+    margin: 20px 0 0 20px;
+
+}
+
+.botão:hover{
+    background-color: rgba(75, 66, 66, 0.7);
+    cursor: pointer;
+    
+}
+.botão{
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: rgba(0,0,0,.45);
+    padding: 15px;
+    font-size: 19px;
+    margin-right: 15px;
+    transition: .3s ease all;
+}
+
+.botão i {
+    margin-right: 12px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
